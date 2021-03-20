@@ -1,0 +1,1 @@
+const API_URL = 'https://frontent-2020-3-default-rtdb.firebaseio.com/';
