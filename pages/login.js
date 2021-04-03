@@ -17,9 +17,9 @@ function login() {
     const formLogin = () => {
         return `
             <div class="card card-body">
-                <form action="?page=dashboard" method="post">
-                    <input class="form-control" placeholder="Email" type="email">
-                    <input class="form-control mt-2" placeholder="Senha" type="password">
+                <form action="?page=dashboard" method="post" id="form-login">
+                    <input class="form-control" id="email" placeholder="Email" type="email">
+                    <input class="form-control mt-2" id="senha" placeholder="Senha" type="password">
                     
                     <button class="btn btn-dark btn-block mt-2">
                         ENTRAR
